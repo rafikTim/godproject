@@ -8,6 +8,4 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if(delta >= 10):
-		apply_impulse(Vector3.FORWARD, Vector3(10, 0, 0))
-	pass
+	apply_impulse(Vector3.BACK, Vector3(0, 0.1, 0))
