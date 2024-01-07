@@ -36,3 +36,6 @@ shape = SubResource("BoxShape3D_2yp8x")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.710817, 0)
 mesh = SubResource("PlaneMesh_f8k3l")
 skeleton = NodePath("")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.648875, 0.349338, -0.675962, 0.377528, 0.623504, 0.684628, 0.660632, -0.699432, 0.272691, -10.136, 1.80483, 6.94639)
