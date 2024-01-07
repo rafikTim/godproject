@@ -1,7 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://b45io1h6cukn1"]
+[gd_scene load_steps=6 format=3 uid="uid://b45io1h6cukn1"]
 
 [ext_resource type="Script" path="res://scripts/Player.gd" id="1_og8xo"]
-[ext_resource type="Script" path="res://scee/3Dmenu.gd" id="1_yk8o2"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2yp8x"]
 size = Vector3(6.36627, 0.757812, 4.68823)
@@ -13,7 +12,6 @@ size = Vector3(6.36627, 0.757812, 4.68823)
 [sub_resource type="BoxMesh" id="BoxMesh_bk71e"]
 
 [node name="Node3D" type="Node3D"]
-script = ExtResource("1_yk8o2")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 
@@ -41,17 +39,3 @@ skeleton = NodePath("../..")
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 0.854676, 0.519161, 0, -0.519161, 0.854676, 0, 1.55833, 3.06373)
-
-[node name="Control" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 0
-offset_left = -1.0
-offset_top = -4.0
-offset_right = 1153.0
-offset_bottom = 650.0
-
-[node name="Button" type="Button" parent="Control"]
-offset_left = 398.0
-offset_top = 96.0
-offset_right = 821.0
-offset_bottom = 204.0
