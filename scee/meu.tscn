@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://b0jnxxo8dx2i3"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Button" type="Button" parent="."]
+offset_left = -205.0
+offset_top = -218.0
+offset_right = 209.0
+offset_bottom = 176.0
